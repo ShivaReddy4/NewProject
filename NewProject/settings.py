@@ -49,7 +49,8 @@ import os
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.1.45', 'newproject.onrender.com']
+ALLOWED_HOSTS = ['newproject-api-p1s2.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
