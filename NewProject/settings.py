@@ -46,8 +46,8 @@ INSTALLED_APPS = [
 # Optional, but helpful during development
 import os
 
-DEBUG = False
-ALLOWED_HOSTS = ['your-render-app-name.onrender.com']
+DEBUG = True
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
