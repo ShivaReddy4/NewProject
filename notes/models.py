@@ -1,7 +1,7 @@
 # notes/models.py
 
 from django.db import models
-from django.utils import timezone  # ✅ this is the key missing line
+from django.utils import timezone  # 
 
 class Note(models.Model):
     title = models.CharField(max_length=200)
