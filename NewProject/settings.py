@@ -47,7 +47,12 @@ INSTALLED_APPS = [
 import os
 
 DEBUG = True
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+=======
+ALLOWED_HOSTS = ['127.0.0.1', '192.168.1.45']
+
+>>>>>>> 2c3139d (Save local changes before pulling)
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 

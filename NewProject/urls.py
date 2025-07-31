@@ -6,4 +6,3 @@ urlpatterns = [
     path('api/', include('notes.urls')),  # ← This line is critical
 
 ]
-
