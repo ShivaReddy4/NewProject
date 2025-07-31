@@ -19,7 +19,7 @@ NewProject/
 
 ## 🚀 Setup Instructions
 
-1. Clone the repository:
+1 BookStore:
   
   git clone https://github.com/ShivaReddy4/NewProject.git
   cd NewProject
