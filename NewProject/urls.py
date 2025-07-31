@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from django.http import JsonResponse  # <-- add this import
+from django.http import JsonResponse  #
 
 def health_check(request):
     return JsonResponse({"status": "ok"})  # <-- this is your health check view
@@ -8,5 +8,5 @@ def health_check(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('notes.urls')),
-    path('healthz/', health_check),  # <-- add this line
+    path('healthz/', health_check),  
 ]
