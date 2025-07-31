@@ -46,9 +46,9 @@ INSTALLED_APPS = [
 # Optional, but helpful during development
 import os
 
-DEBUG = True
+DEBUG = False
 
-DEBUG = True
+
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.1.45', 'newproject.onrender.com']
 
 
